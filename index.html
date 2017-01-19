@@ -188,6 +188,8 @@
         initLight();
         initObject();
         //CreateBlock();
+        renderer.clear();
+        renderer.render(scene, camera);
         var run= function(){
             //刷新画面
             RotationViewMatrix();
