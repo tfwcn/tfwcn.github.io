@@ -1,0 +1,1 @@
+function test(a,b){return a+b}document.write("It works.");
